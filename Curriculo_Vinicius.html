@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Currículo de Vinicius</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 40px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#apresentacao">Apresentação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="apresentacao">
+    <h2>Apresentação Pessoal</h2>
+    <p><strong>Nome:</strong> Vinicius Michalski Lima</p>
+    <p><strong>Curso:</strong> Estudante de Engenharia de Software na UniSenaiPR</p>
+    <p><strong>Trabalho:</strong> Atuando na empresa FORVIA</p>
+    <p><strong>Conhecimentos:</strong></p>
+    <ul>
+      <li>JavaScript (básico)</li>
+      <li>VBA (Macros) – nível intermediário</li>
+      <li>Inglês – avançado</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <ul>
+      <li><strong>Automação de Relatórios Financeiros</strong> – Sistema em VBA que coleta dados de planilhas e gera relatórios semanais automaticamente.</li>
+      <li><strong>Controle de Estoque em Excel</strong> – Macro para registrar entradas e saídas de estoque, com geração de gráficos automáticos.</li>
+      <li><strong>Envio Automático de E-mails</strong> – Script em VBA que envia e-mails personalizados com base em dados de uma planilha.</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Formulário de Contato</h2>
+    <form>
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" value="Vinicius Michalski Lima" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" value="vinimichalski2@gmail.com" required>
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" value="41 - 984204753" required>
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem aqui..."></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vinicius Michalski Lima</p>
+  </footer>
+
+</body>
+</html>
